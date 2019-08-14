@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.6" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="Moq" Version="4.12.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KYC_UploadPassportMicroService\KYC_UploadPassportMicroService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AbbyyOnlineSdk">
+      <HintPath>C:\Users\mukhan\Downloads\dotNet\General\dotNetWrapper\bin\Debug\AbbyyOnlineSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="NDesk.Options">
+      <HintPath>C:\Users\mukhan\Downloads\dotNet\General\ConsoleTest\NDesk.Options\NDesk.Options.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
